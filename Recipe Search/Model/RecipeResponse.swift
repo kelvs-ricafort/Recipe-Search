@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct RecipeResponse: Decodable {
+    var results: [Recipe]
+}
