@@ -14,6 +14,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B65C1B622C26B6F3006F5530 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		B65C1B632C26B76C006F5530 /* Recipe-Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Recipe-Search-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B6E9DC482C25C3EB001CAD06 /* Recipe Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E9DC4B2C25C3EB001CAD06 /* Recipe_SearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_SearchApp.swift; sourceTree = "<group>"; };
 		B6E9DC4D2C25C3EB001CAD06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +53,10 @@
 		B6E9DC4A2C25C3EB001CAD06 /* Recipe Search */ = {
 			isa = PBXGroup;
 			children = (
+				B65C1B632C26B76C006F5530 /* Recipe-Search-Info.plist */,
 				B6E9DC4B2C25C3EB001CAD06 /* Recipe_SearchApp.swift */,
 				B6E9DC4D2C25C3EB001CAD06 /* ContentView.swift */,
+				B65C1B622C26B6F3006F5530 /* Config.xcconfig */,
 				B6E9DC4F2C25C3F3001CAD06 /* Assets.xcassets */,
 				B6E9DC512C25C3F3001CAD06 /* Preview Content */,
 			);
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		B6E9DC542C25C3F3001CAD06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65C1B622C26B6F3006F5530 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +215,7 @@
 		};
 		B6E9DC552C25C3F3001CAD06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65C1B622C26B6F3006F5530 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = M85NJXLM4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recipe-Search-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = M85NJXLM4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recipe-Search-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
